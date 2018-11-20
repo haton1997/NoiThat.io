@@ -1,0 +1,385 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*header css*/
+.header{
+    box-sizing: border-box;
+    width: 100%;
+    height: 170px;
+    max-height: 170px;
+    padding: 50px;
+}
+.header nav.main-menu {
+
+}
+.header nav.main-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+
+}
+.header nav.main-menu li{
+    float: left;
+    padding-left: 20px;
+}
+.header nav.main-menu a{
+    display: inline-block;
+   color: #8d8d8d;
+    padding:30px;
+}
+/*End herder*/
+
+/*banner css*/
+.banner{
+    width: 100%;
+    height: 936px;
+    margin-top: -170px;
+    background: url("../images/banner.jpg") top center;
+    display: table;
+}
+.banner h1{
+   font-size: 83px;
+    color: #000000;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle; /*căn theo chiều dọc*/
+}
+.banner h1 span{
+    color:#f66c27 ;
+}
+
+/*
+ *  End banner
+ */
+
+/*
+ * Our projects
+ */
+.our-project {
+    padding: 50px 0;
+}
+
+.our-project h3 {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.our-project .project-col img {
+    max-width: 100%;
+    padding: 5px;
+    border: 1px solid #eeeeee;
+}
+
+.our-project .project-col-1 img{
+    height: 300px;
+    width: auto;
+}
+
+.our-project .project-col-1 .project-item {
+    margin-bottom: 90px;
+}
+
+.our-project.project-col-1 p {
+    margin-bottom: 35px;
+}
+
+.our-project .project-col-1 a {
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 32px;
+}
+
+.our-project .project-col-2 img{
+    height: 650px;
+    width: auto;
+}
+
+.our-project .project-col-3 img{
+    height: 300px;
+    width: auto;
+    margin-bottom: 48px;
+}
+
+/*End Our projects*/
+
+
+/*
+ * CSS Intro
+ */
+.intro1 .img_trong
+{
+    width: 627px;
+    height: 441px;
+    margin-top: 160px;
+    padding-left: 100px;
+
+    box-shadow: 10px 10px  10px #e5e5e5;
+
+}
+.intro1 .img_duoi{
+    width: 314px;=
+    height: 228px;
+    margin-top: -172px ;
+    margin-left: 343px;
+    box-shadow:20px 20px 30px #e5e5e5;
+}
+
+.intro1 .content-dau h3{
+    padding-top: 170px;
+    font-size: 45px;
+}.intro1 .content-dau h4{
+    font-size: 25px;
+    padding-top: 40px;
+    color: #ff7b38;
+}
+.intro1 .content-dau p{
+    font-size: 15px;
+    padding-top: 30px;
+    color: #d7d7d7;
+}
+.intro1 .btnsubmit{
+    background: #f48146;
+    color: #ffffff;
+    width: 120px;
+    margin-top: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+}
+
+.intro2 .container-fluid{
+    height: 500px;
+    margin-top: 125px;
+    margin-bottom: 100px;
+    background: #ffffff;
+    padding-left: 170px;
+}
+.intro2 .book1{
+    width: 300px;
+    height: 360px;
+    margin-left: 30px;
+}
+.intro2 .book1 img{
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 160px;
+}
+.intro2 .book1 h5{
+    text-align: center;
+    padding-top: 50px;
+    color: #333333;
+}
+.intro2 .book1 p{
+    text-align: center;
+    color: #d7d7d7;
+    padding-top: 25px   ;
+}
+
+
+.intro2 .book2{
+    width: 350px;
+    height: 385px;
+}
+.intro2 .book3{
+    width: 350px;
+    height: 385px;
+}
+
+.intro2 h3{
+    font-size: 45px;
+}
+intro2 .container .book1
+{
+    background: #777777;
+    color: black;
+}
+.intro3 h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro3 p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.intro4 .subscribe{
+    background-image: url("../images/anh9_03.png");
+    width: 100%;
+    height: 360px;
+}
+.intro4 p
+{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.intro4 .form-control{
+    width: 30%;
+    margin-left: 340px;
+    margin-top: 90px;
+}
+.intro4 .btnsubmit2{
+    margin-top: -66px;
+    margin-left: 778px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    background: #f48146;
+    color: #ffffff;
+    width: 120px;
+
+}
+.intro4 .form-control{
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    background: #f3f2f2;
+}
+.intro5 {
+    width: 100%;
+    height: 500px;
+    background-color: #f8f8f8;
+}
+.intro5 .serian-mela{
+    width: 80%;
+    height: 500px;
+   padding-left: 300px;
+}
+.intro5 h3{
+   margin-top: -70px;
+    color: #010101;
+    text-align: center;
+
+}
+.intro5 p{
+    text-align: center;
+    color: #979797;
+    font-size: 15px;
+}
+.intro5 span{
+    text-align: center;
+    color: #979797;
+    font-size: 15px;
+}
+.intro5 .mela{
+    text-align: center;
+}
+
+/*
+ * End CSS Intro
+ */
+
+/*footer*/
+footer {
+    background: linear-gradient(to right, #f48146 50%, #ffffff 50%);
+}
+footer .contact-form {
+    box-sizing: border-box;
+    background: #f48146;
+    height: 704px;
+}
+
+footer .content-form {
+    margin-top: 138px;
+    margin-right: 100px;
+    background: #FFF;
+    padding: 60px;
+}
+
+footer .content-form input, textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    color: #777777;
+    font-size: 15px;
+}
+
+footer .contact-form-row.first-row input {
+    width: 40%;
+}
+
+footer.contact-form-row.first-row:after {
+    content: '';
+    clear: both;
+}
+
+footer .contact-form-row.first-row input[name='email'] {
+    float: right;
+}
+
+footer .content-form textarea {
+    width: 100%;
+    height: 150px;
+    border-bottom:1px solid red ;
+}
+
+footer .content-form textarea:focus, input:focus{
+    outline: none;
+}
+
+footer .submit-row {
+    text-align: center;
+}
+
+footer .content-form input[type="submit"] {
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 6px 20px;
+    border-radius: 32px;
+}
+
+footer .contact-form-row {
+    margin-bottom: 20px;
+}
+
+footer .contact-info {
+    box-sizing: border-box;
+    padding-left: 50px;
+    height: 704px;
+}
+
+footer .contact-info h3 {
+    margin-top: 120px;
+    font-size: 34px;
+}
+
+footer .line-contact-info {
+    padding: 20px 0;
+}
+
+footer .line-contact-info h4 {
+    font-size: 25px;
+    color: #333333;
+}
+
+footer .line-contact-info p {
+    font-size: 14px;
+    max-width: 305px;
+}
+
+footer .icon i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #bbbbbb;
+    margin-right :20px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+footer .icon i:hover {
+    background: #f48146;
+}
+
+/*END footer*/
